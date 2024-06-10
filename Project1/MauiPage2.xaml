@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="Project1.MauiPage2"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Project1"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <Grid>
+            <Button Command="{Binding NavigateCommand}" Text="MauiPage2"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
